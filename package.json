@@ -1,0 +1,29 @@
+{
+  "name": "mcp-customer-service",
+  "version": "1.0.0",
+  "description": "中文客服 MCP Server - 连接钉钉、企微、飞书客服系统到 AI 助手",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "customer-service",
+    "dingtalk",
+    "wechat-work",
+    "feishu"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
